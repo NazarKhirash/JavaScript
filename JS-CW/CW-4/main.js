@@ -46,6 +46,9 @@
 //
 // console.log(numSum([23,45,42]))
 //
+//
+//
+//
 // let numSum = [1,2,3,4,5].reduce(function (a,b){
 //     return a+b;
 // })
@@ -63,7 +66,60 @@
 // console.log(averageValue)
 //----------------------------------------------------------------------------------------------------------------------
 // - створити функцію яка приймає будь-яку кількість чисел, повертає найменьше, а виводить найбільше (Math використовувати заборонено);
+
+// function returnMinLogMax(arg){
+//    let min = arguments[0];
+//    let max = arguments[0];
+//     for (const argument of arguments) {
+//         if (argument>max){
+//             max = argument;
+//         }
+//         if (argument<min){
+//             min =argument
+//         }
+//     }
+//     console.log(max)
+//     return min
+// }
+//
+// console.log(returnMinLogMax(1,2,3,45,6,7))
+
 // - створити функцію яка заповнює масив рандомними числами
 // (цей код генерує рандомні числа в діапазоні від 0 до 100 - Math.round(Math.random()*100)) та виводить його.
+// debugger
+// let arr = [];
+// function random() {
+//     for (let i = 0; i <10; i++) {
+//        arr.push(Math.round(Math.random() * 100))
+//     }
+//     return arr
+// }
+// random()
+
+
 // - створити функцію яка заповнює масив рандомними числами в діапазоні від 0 до limit. limit - аргумент, який характеризує кінцеве значення діапазону.
+
+// let arr1 = [];
+// function random1(limit){
+//     for (let i = 0; i < 10; i++) {
+//         arr1.push(Math.round(Math.random()*limit))
+//     }
+//     return arr1
+// }
+// random1(100)
+// document.write(`${arr1}`)
+
 // - Функція приймає масив та робить з нього новий масив в зворотньому порядку. [1,2,3] -> [3, 2, 1].
+// let numbers1 = []
+// let numbers = [1,2,3]
+// function reverseArr(){
+//    numbers1 = numbers.reverse()
+//     return numbers1
+// }
+// reverseArr()
+// console.log(numbers1)
+
+
+
+
+
