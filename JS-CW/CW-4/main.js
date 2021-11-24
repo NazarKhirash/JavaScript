@@ -122,4 +122,20 @@
 
 
 
+// let numbers2 = []
+// function reverseArr2(arr){
+//         numbers2 = arr.reverse()
+//     return arr
+// }
+
+// reverseArr2([1,2,3])
+// console.log(numbers2)
+
+// let arr2 = reverseArr2([2,3,4,5,6,7,8])
+// console.log(arr2)
+
+// let arr3 = reverseArr2([4,5,6,7,8,9,0])
+// console.log(arr3)
+
+
 
