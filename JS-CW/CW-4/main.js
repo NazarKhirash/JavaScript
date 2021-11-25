@@ -67,22 +67,22 @@
 //----------------------------------------------------------------------------------------------------------------------
 // - створити функцію яка приймає будь-яку кількість чисел, повертає найменьше, а виводить найбільше (Math використовувати заборонено);
 
-// function returnMinLogMax(arg){
-//    let min = arguments[0];
-//    let max = arguments[0];
-//     for (const argument of arguments) {
-//         if (argument>max){
-//             max = argument;
-//         }
-//         if (argument<min){
-//             min =argument
-//         }
-//     }
-//     console.log(max)
-//     return min
-// }
-//
-// console.log(returnMinLogMax(1,2,3,45,6,7))
+function returnMinLogMax(arg){
+   let min = arguments[0];
+   let max = arguments[0];
+    for (const argument of arguments) {
+        if (argument>max){
+            max = argument;
+        }
+        if (argument<min){
+            min =argument
+        }
+    }
+    console.log(max)
+    return min
+}
+
+console.log(returnMinLogMax(1,2,3,45,6,7))
 
 // - створити функцію яка заповнює масив рандомними числами
 // (цей код генерує рандомні числа в діапазоні від 0 до 100 - Math.round(Math.random()*100)) та виводить його.
@@ -122,7 +122,7 @@
 
 
 
-let numbers2 = []
+let  numbers2 = []
 function reverseArr2(arr){
         numbers2 = arr.reverse()
     return arr
