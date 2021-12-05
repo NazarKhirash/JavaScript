@@ -66,6 +66,21 @@
 //     return min
 // }
 // console.log(minMax(1,2,3,4,5))
+const minMax = (...arg)=> {
+    let min = arg[0];
+    let max = arg[0];
+    for (const element of arg) {
+        if (element > max) {
+            max = element;
+        }
+        if (element < min) {
+            min = element;
+        }
+    }
+    console.log(max);
+    return min
+}
+console.log(minMax(30,45,234))
 //----------------------------------------------------------------------------------------------------------------------
 // - створити функцію яка заповнює масив рандомними числами
 // (цей код генерує рандомні числа в діапазоні від 0 до 100 - Math.round(Math.random()*100)) та виводить його.
