@@ -1,0 +1,11 @@
+
+.btn{
+    width: 200px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.hard{
+    display: none;
+}
+
