@@ -16,20 +16,21 @@
 // -створити форму з інпутами для model,type та volume автівки.
 //     при відпарвці форми об'єкти зберігаються в масиві в локальному сховищі.
 
-// let formCar = document.forms.car
-// let btn = document.getElementById('btn')
-// let arrCar = []
-//
-// btn.onclick = function () {
-//     let carObj = {
-//         model: formCar.model.value,
-//         type: formCar.type.value,
-//         volume: formCar.volume.value
-//     }
-//
-//     arrCar.push(carObj)
-//     localStorage.setItem('keyCar', JSON.stringify(arrCar))
-// }
-//
+let formCar = document.forms.car
+let btn = document.getElementById('btn')
+
+let objCar = (carModel, carType, carVolume) => {
+    let carArr = JSON.parse(localStorage.getItem('cars')) || []
+
+    carArr.push({carModel, carType, carVolume})
+    localStorage.setItem('cars', JSON.stringify(carArr))
+}
+
+btn.onclick = () => {
+    objCar(car.model.value, car.type.value, car.volume.value)
+}
+
+
+
 
 
