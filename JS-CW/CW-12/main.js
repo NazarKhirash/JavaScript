@@ -47,7 +47,7 @@ fetch('https://jsonplaceholder.typicode.com/posts')
                                 commentBody.innerHTML = `${valueCommentElement.body}`
 
                                 commentDiv.append(commentId, commentNameEmail, commentBody)
-                                document.body.appendChild(commentDiv)
+                                divPost.append(commentDiv)
                             }
                         }
                     })
