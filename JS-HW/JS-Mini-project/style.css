@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    text-align: justify;
+}
+
+.main-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+
+}
+
+.wrap-user_div{
+    border: solid 3px greenyellow;
+    width: 40%;
+    margin-top: 20px;
+    text-align: center;
+    height: 100px;
+}
+
+.aDetails{
+    text-decoration: none;
+    color: white;
+    background: black;
+    padding: 10px;
+}
+
+.main-div_details{
+    width: 100%;
+    text-align: center;
+    border: solid 2px yellow;
+    background: black;
+    color: white;
+    box-sizing: border-box;
+}
+
+.btn-details{
+    width: 90%;
+    background: darkviolet;
+    color: greenyellow;
+    cursor: pointer;
+}
+
+.div-post_title{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.wrap-div_post{
+    width: 20%;
+    border: solid 2px yellow;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 5px;
+}
+
+.wrap-postBtn{
+    border: solid 3px greenyellow;
+    text-align: center;
+}
+
+.btn-comment{
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.main-div_comments{
+    border: solid 2px yellow;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background: silver;
+
+}
+
+.comment-div{
+    width: 21%;
+    border: solid 2px yellow;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+
